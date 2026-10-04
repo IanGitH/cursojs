@@ -8,7 +8,7 @@
 <body>
     <h1>Verificador de Nacionalidade</h1>
     Verificador <input type="text">
-    <input type="button" value="verificar" onclick=""()>
+    <input type="button" value="verificar" onclick="verificar()">
 
     <div id="res">
 
@@ -16,6 +16,14 @@
 
     <script>
         function verificar () {
+            var pais = document.querySelector('input[type=text]').value
+            var res = document.querySelector('#res')
+
+            if (pais == 'Brasil') {
+                res.innerHTML = 'Você é brasileiro'
+            } else {  
+                res.innerHTML = 'Você é estrangeiro'
+            }
             
         }
         

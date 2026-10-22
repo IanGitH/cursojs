@@ -22,3 +22,11 @@ color: aliceblue;
 text-align: center;
 font-style: italic;
 }
+
+#foto {
+    width: 250px;      /* Define a largura desejada */
+    height: 250px;     /* Define a altura desejada */
+    border-radius: 50%; /* Torna a imagem redonda (opcional) */
+    margin-top: 15px;  /* Espaçamento superior */
+    object-fit: cover;  /* Ajusta a foto sem distorcer */
+}

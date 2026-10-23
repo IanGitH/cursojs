@@ -1,0 +1,28 @@
+/* Configurações gerais para o fundo e o texto da página toda */
+body {
+    background-color: rgb(17, 0, 255);    /* Define a cor de fundo da página como azul */
+    font: normal 15pt Arial;   /* Define o estilo (normal), tamanho (15pt) e a fonte (Arial) de todo o texto */
+}
+
+/* Configurações do cabeçalho da página (<header>) */
+header {
+    color: aliceblue;          /* Define a cor do texto do título como azul bem claro (AliceBlue) */
+    text-align: center;        /* Centraliza o texto do cabeçalho na tela */
+}
+
+/* Configurações do bloco principal/caixa central (<section>) */
+section {
+    background-color: aliceblue; /* Define o fundo da caixa como azul bem claro */
+    border-radius: 10px;        /* Arredonda as 4 bordas da caixa em 10 pixels */
+    padding: 150px;              /* Cria um espaço interno de 15px entre as bordas e o conteúdo (texto/imagem) */
+    width: 300px;               /* Fixa a largura da caixa em 500 pixels */
+    margin: auto;               /* Centraliza a caixa horizontalmente na tela */
+    box-shadow: 3px 3px 10px black; /* Cria uma sombra no bloco (3px para a direita, 3px para baixo, 10px de desfoque, cor preta) */
+}
+
+/* Configurações do rodapé da página (<footer>) */
+footer {
+    color: aliceblue;          /* Define a cor do texto do rodapé como azul bem claro */
+    text-align: center;        /* Centraliza o texto do rodapé na tela */
+    font-style: italic;        /* Deixa o texto do rodapé em itálico */
+}

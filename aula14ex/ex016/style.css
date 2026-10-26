@@ -14,8 +14,8 @@ header {
 section {
     background-color: aliceblue; /* Define o fundo da caixa como azul bem claro */
     border-radius: 10px;        /* Arredonda as 4 bordas da caixa em 10 pixels */
-    padding: 150px;              /* Cria um espaço interno de 15px entre as bordas e o conteúdo (texto/imagem) */
-    width: 300px;               /* Fixa a largura da caixa em 500 pixels */
+    padding: 15px;              /* Cria um espaço interno de 15px entre as bordas e o conteúdo (texto/imagem) */
+    width: 500px;               /* Fixa a largura da caixa em 500 pixels */
     margin: auto;               /* Centraliza a caixa horizontalmente na tela */
     box-shadow: 3px 3px 10px black; /* Cria uma sombra no bloco (3px para a direita, 3px para baixo, 10px de desfoque, cor preta) */
 }
